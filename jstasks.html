@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let fruits = ['яблоко', 'банан']
+        fruits.push(['апельсин', 'киви'])
+        alert(fruits)
+        let students = ['Алексей', 'Мария']
+        students.push(['Иван', 'Ольга'])
+        alert(students);
+
+        let num = [1,2,3,4]
+        num.pop()
+        alert(num)
+        let colors = ['красный','синий','зеленый']
+        colors.pop()
+        alert(colors);
+
+        let months = ['Январь','Февраль','Март']
+        months.shift()
+        alert(months)
+        let vehicles = ['Toyota','BMW','Audi']
+        vehicles.shift()
+        alert(vehicles);
+
+        let vegetables = ['картофель','морковь']
+        vegetables.unshift('огурец','помидор')
+        alert(vegetables)
+        let members = ['Петр','Анна']
+        members.unshift('Дмитрий','Елена')
+        alert(members);
+
+        let names = ['Алекс','Боб','Чарли','Дэвид','Эдвард']
+        names.splice(3, 2, 'Фрэнк', 'Гарри')
+        alert(names)
+        let num2 = [1,2,3,4,5,6,7,8,9]
+        num2.splice(3, 5, '10', '11', '12')
+        alert(num2);
+
+        let cities = ['Минск', 'Москва', 'Париж','Лондон','Берлин','Рим']
+        cities.slice(1, 3)
+        alert(cities)
+        let products = ['молоко','хлеб','сыр','масло','яйца']
+        products.slice(3,2)
+        alert(products);
+
+        
+    </script>
+</body>
+</html>
